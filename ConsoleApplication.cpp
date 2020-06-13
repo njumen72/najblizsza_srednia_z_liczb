@@ -63,6 +63,9 @@ int main()
 	else
 		cout << x << " i " << y << endl;
 
+	delete[] liczba;
+	delete[] p;
+
 	cout << endl;
 	system("pause");
 	return 0;
