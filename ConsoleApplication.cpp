@@ -43,7 +43,7 @@ int main()
 		}
 		s += p[i];
 	}
-	float x, y;
+	float x = 1, y;
 
 	cout << "Liczba najblizsza sredniej: ";
 
