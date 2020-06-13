@@ -2,8 +2,6 @@
 
 using namespace std;
 
-const int n = 5;
-
 int main()
 {
 	int n;
