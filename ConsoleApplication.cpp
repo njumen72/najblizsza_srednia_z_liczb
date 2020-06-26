@@ -13,7 +13,6 @@ int main()
 	float* p;
 	liczba = new float[n];
 	p = new float[n];
-
 	float suma = 0;
 
 	for (int i = 0; i < n; i++)
@@ -35,7 +34,6 @@ int main()
 			p[i] = liczba[i] - m;
 		else if (liczba[i] < m)
 			p[i] = m - liczba[i];
-
 		else
 		{
 			cout << "Liczba najblizsza sredniej: " << m << endl;
@@ -70,3 +68,4 @@ int main()
 	system("pause");
 	return 0;
 }
+//njumen72
